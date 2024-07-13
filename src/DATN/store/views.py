@@ -6,8 +6,6 @@ from carts.models import CartItem
 from django.db.models import Q
 from .forms import ReviewForm
 from django.urls import resolve
-
-
 from carts.views import _cart_id
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.http import HttpResponse

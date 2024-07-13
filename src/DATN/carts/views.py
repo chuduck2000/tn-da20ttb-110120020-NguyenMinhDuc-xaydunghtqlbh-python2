@@ -5,9 +5,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.contrib.auth.decorators import login_required
 from accounts.models import Account, UserProfile
 from django.contrib import messages
-
-
-# Create your views here.
 from django.http import HttpResponse
 
 
