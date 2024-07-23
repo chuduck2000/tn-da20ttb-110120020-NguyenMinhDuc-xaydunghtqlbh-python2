@@ -21,7 +21,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="product-pic-zoom">
-                <img class="product-big-img" src="{{ single_product.images.url }}" alt="" width="400px" height="400px">
+                <img class="product-big-img" src="{{ single_product.images.url }}" alt="" width="300px" height="500px">
                 <div class="zoom-icon">
                   <i class="fa fa-search-plus"></i>
                 </div>
@@ -93,7 +93,7 @@
                   </div> {% endcomment %}
                   <hr>
                   <button type="submit" href="{% url 'add_cart' single_product.id %}" class="primary-btn pd-cart">Thêm vào giỏ</button>
-                  <i class="">Số lượng: {{product.stock}}</i>
+                  
                   {% endif %}
 
                 </div>
